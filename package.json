@@ -1,22 +1,38 @@
 {
-  "name": "curriculum-vitae",
-  "version": "0.1.0",
-  "private": true,
+  "name": "fullstack-next",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@types/node": "20.4.4",
-    "@types/react": "18.2.16",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "@displaykit/responsive_styles": "^2.3.1",
+    "@types/styled-components": "^5.1.26",
+    "gray-matter": "^4.0.3",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use-ripple": "^1.5.2",
+    "read-yaml-file": "^2.1.0",
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.0.2",
+    "@storybook/addon-interactions": "7.0.2",
+    "@storybook/addon-links": "7.0.2",
+    "@storybook/blocks": "7.0.2",
+    "@storybook/nextjs": "7.0.2",
+    "@storybook/react": "7.0.2",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "@types/node": "^18.15.7",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "storybook": "7.0.2",
+    "typescript": "^5.0.2"
   }
 }

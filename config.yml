@@ -1,0 +1,9 @@
+site:
+  title: "Fernando Perin - Timeline"
+  description: "Bem vindo a minha timeline pessoal"
+personal:
+  name: "Fernando Perin"
+  socialNetworks:
+    instagram: "https://www.instagram.com/"
+    github: "https://github.com/FernandoPerin"
+    linkedin: "https://www.linkedin.com/"
